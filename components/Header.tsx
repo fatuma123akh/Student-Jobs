@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Hammer } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Header() {
   return (
@@ -14,17 +15,18 @@ export function Header() {
           <Link href="/" className="hover:underline">
             Home
           </Link>
-          <Link href="/jobs" className="hover:underline">
+          <Link href="/dashboard" className="hover:underline">
             Find Jobs
           </Link>
-          <Link href="/post-job" className="hover:underline">
+          <Link href="/job-board" className="hover:underline">
             Post a Job
           </Link>
-          <Link href="/dashboard" className="hover:underline">
-            Dashboard
+          <Link href="/admin-dashboard" className="hover:underline">
+            Admin
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
+          <ThemeToggle />
           <Button variant="outline" asChild>
             <Link href="/login">Log In</Link>
           </Button>
