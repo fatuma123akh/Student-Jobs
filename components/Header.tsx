@@ -27,12 +27,12 @@ export function Header() {
         </nav>
         <div className="flex items-center space-x-4">
           <ThemeToggle />
-          <Button variant="outline" asChild>
+          {/* <Button variant="outline" asChild>
             <Link href="/login">Log In</Link>
-          </Button>
-          <Button asChild>
+          </Button> */}
+          {/* <Button asChild>
             <Link href="/signup">Sign Up</Link>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </header>
