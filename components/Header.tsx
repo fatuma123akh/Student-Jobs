@@ -33,6 +33,7 @@ export function Header() {
           <Button asChild>
             <Link href="/signup">Sign Up</Link>
           </Button>
+          
         </div>
       </div>
     </header>
