@@ -32,8 +32,7 @@ export function Header() {
           </Button> */}
           {/* <Button asChild>
             <Link href="/signup">Sign Up</Link>
-          </Button>
-          
+          </Button> */}
         </div>
       </div>
     </header>
